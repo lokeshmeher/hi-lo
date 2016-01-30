@@ -66,7 +66,7 @@ void playHiLo()
 
 	do
 	{
-		// Increments count as soon as loop is entered
+		// Increment number of tries parameter as soon as loop is entered
 		++count;
 
 		guess = getGuess(count);
