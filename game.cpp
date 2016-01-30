@@ -1,3 +1,8 @@
+#include <iostream>
+#include <cstdlib>	// for rand() and srand()
+#include <ctime>	// for time()
+
+
 // Generate a random number between max and min(inclusive)
 // Assumes srand() has already been called
 int getRandomNumber(int min, int max)
