@@ -47,6 +47,10 @@ bool checkAndPrintResult(int number, int guess, int count)
 void playHiLo()
 {
 	// START GAME...
+	
+	// Game parameters:
+	int numberOfTries(5);
+	int rangeMax(100);
 
 	// set initial seed value to system clock
 	// call this before calling getRandomNumber()
